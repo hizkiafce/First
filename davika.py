@@ -32,4 +32,4 @@ async def on_message(message):
     if any(word in msg for word in sad_words):
         await message.channel.send(random.choice(starter_cheer))
 
-client.run('OTEzNzQ2OTYwMTk5MDgxOTk1.YaC_Kw.5kdtLdsRBxWIMKoChtvx_hoJYIs')
+client.run('')
